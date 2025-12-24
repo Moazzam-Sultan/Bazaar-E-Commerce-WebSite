@@ -1,16 +1,84 @@
-# React + Vite
+# 🛍️ Bazaar - React E-Commerce Shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Project Banner](https://via.placeholder.com/1000x300?text=Bazaar+E-Commerce+Application) 
+> A fully responsive E-commerce application built with **React.js**, featuring dynamic product routing, cart management, and a modern UI.
 
-Currently, two official plugins are available:
+🔗 **[Live Demo](https://bazaar-e-commerce-web-site.vercel.app/)** ---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 About The Project
 
-## React Compiler
+As a Software Engineering student transitioning from WordPress to full-stack development, I built this project to master the core concepts of **React.js**. 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This application simulates a real-world shopping experience where users can browse products, filter categories, view detailed product pages, and manage a shopping cart state globally across the application.
 
-## Expanding the ESLint configuration
+### 🌟 Key Features
+* **Dynamic Product Catalog:** Fetches product data and renders components dynamically.
+* **Shopping Cart Logic:** Add items, remove items, and calculate total prices in real-time.
+* **Single Page Application (SPA):** Smooth navigation between pages using **React Router** without page reloads.
+* **Responsive Design:** Fully optimized for Mobile, Tablet, and Desktop screens.
+* **State Management:** Utilized to manage data flow effectively between components.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+| :--- | :--- |
+| **Frontend** | React.js (Hooks), JSX |
+| **Styling** | CSS3 / Tailwind CSS |
+| **Routing** | React Router DOM |
+| **Icons** | React Icons / FontAwesome |
+| **Version Control** | Git & GitHub |
+
+---
+
+## 📸 Screenshots
+
+| Home Page | Product Details | Shopping Cart |
+| :---: | :---: | :---: |
+| ![Home](/project%20images/Screenshot%202025-12-24%20182351.png) | ![Details](/project%20images/Screenshot%202025-12-24%20182420.png) | ![Cart](/project%20images/Screenshot%202025-12-24%20182444.png) |
+
+---
+
+## 💡 What I Learned
+Building this project helped solidify my understanding of:
+
+1.  **React Hooks:** Mastering `useState` for UI updates and `useEffect` for handling side effects.
+2.  **Component Architecture:** Breaking down the UI into reusable chunks (`ProductCard.js`, `Navbar.js`, `CartItem.js`).
+3.  **Prop Drilling vs. Context:** Understanding how to pass data efficiently between parent and child components.
+4.  **Array Methods:** Heavily using `.map()`, `.filter()`, and `.reduce()` to render lists and calculate cart totals.
+
+---
+
+## 🚀 How to Run Locally
+
+If you want to check out the code on your machine:
+
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/Moazzam-Sultan/Bazaar-E-Commerce-WebSite.git](https://github.com/Moazzam-Sultan/Bazaar-E-Commerce-WebSite.git)
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Start the server**
+    ```bash
+    npm start
+    ```
+    Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+---
+
+## 📬 Contact
+
+**Moazzam Sultan** - *Frontend Developer & SE Student*
+
+* **LinkedIn:** [Moazzam Sultan](https://www.linkedin.com/in/moazzam-sultan/)
+* **GitHub:** [Moazzam-Sultan](https://github.com/Moazzam-Sultan)
+* **Email:** [dev.moazamsultan@gmail.com](mailto:dev.moazamsultan@gmail.com)
+
+---
+*Made with ❤️ and React.*
