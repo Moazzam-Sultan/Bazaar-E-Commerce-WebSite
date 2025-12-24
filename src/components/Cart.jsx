@@ -51,7 +51,7 @@ export default function Cart({ cart, removeFromCart, addToCart, decreaseQty }) {
                   {/* Details */}
                   <div className="flex-1 text-center sm:text-left">
                     <h3 className="font-bold text-gray-800">{item.name}</h3>
-                    <p className="text-sm text-gray-500 mb-2">Stock Left: {item.stock}</p>
+                    <p className="text-sm text-gray-500 mb-2">Total Stock: {item.stock}</p>
                     <span className="text-orange-600 font-bold">{item.price}</span>
                   </div>
 
