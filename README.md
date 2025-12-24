@@ -1,6 +1,6 @@
 # 🛍️ Bazaar - React E-Commerce Shop
 
-![Bazaar Project Banner](https://placehold.co/1000x300/2563eb/ffffff?text=Bazaar+E-Commerce+Shop&font=montserrat)
+![Bazaar Project Banner](/project%20images/Gemini_Generated_Image_gfi5zgfi5zgfi5zg.pngt)
 > A fully responsive E-commerce application built with **React.js**, featuring dynamic product routing, cart management, and a modern UI.
 
 🔗 **[Live Demo](https://bazaarpk.vercel.app/)** ---
